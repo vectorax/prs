@@ -22,7 +22,7 @@ function computerPlay(){
 
 function playRound(playerChoice,computerChoice){
     computerChoice = computerPlay();
-    playerChoice = prompt("Type Paper Rock or Scissor");
+    playerChoice = 
     console.log('computer played: ' + computerChoice);
 
     if(playerChoice === computerChoice){
